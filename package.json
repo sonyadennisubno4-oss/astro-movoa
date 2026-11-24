@@ -1,0 +1,59 @@
+{
+  "name": "astro-movoa",
+  "version": "0.1.0",
+  "description": "Unlimited AI video generator with sound: on paid plans the tenth take of a shot costs what the first did, and your first clip is free to make right now. Astro integration for Movoa.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    },
+    "./client": {
+      "types": "./src/client.d.ts",
+      "import": "./src/client.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test.mjs"
+  },
+  "keywords": [
+    "astro-component",
+    "withastro",
+    "astro-integration",
+    "astro",
+    "movoa",
+    "ai-video",
+    "text-to-video",
+    "image-to-video",
+    "ai-video-generator",
+    "video-with-sound"
+  ],
+  "homepage": "https://movoa.ai/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonyadennisubno4-oss/astro-movoa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sonyadennisubno4-oss/astro-movoa/issues"
+  },
+  "author": "Movoa <support@movoa.ai> (https://movoa.ai/)",
+  "license": "MIT",
+  "peerDependencies": {
+    "astro": "^4.0.0 || ^5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "astro": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
